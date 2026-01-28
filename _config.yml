@@ -21,9 +21,10 @@ collections:
 
 # ✅ Point navbar to files INSIDE _pages
 header_pages:
-  - _pages/about.md
-  - _pages/research.md
-  - _pages/projects.md
-  - _pages/publications.md
-  - _pages/cv.md
-  - _pages/contact.md
+  - about.md
+  - research.md
+  - projects.md
+  - publications.md
+  - cv.md
+  - contact.md
+
