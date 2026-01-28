@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Research
+permalink: /research/
 ---
+
 
 ## Dissertation Research
 
