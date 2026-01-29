@@ -4,50 +4,98 @@ title: Research
 permalink: /research/
 ---
 
+<div class="project-box">
 
-## Dissertation Research
+### 🌆 Spatio-Temporal Study of Sustainable Urban Morphology (SUM)
 
-### Spatio-Temporal Study of Sustainable Urban Morphology
+**Study Area:** Mecklenburg County, North Carolina  
+**Temporal Coverage:** 1990–2023  
+**Scale:** Parcel-, street-, and neighborhood-level analysis
 
-My dissertation examines whether and how **urban morphology** has evolved toward greater sustainability over time using a longitudinal, data-driven framework.
-
-**Study Area:** Mecklenburg County, North Carolina (1990–2023)
-
-**Core contributions:**
-- Development of quantitative urban morphology indicators (e.g., density, compactness, street hierarchy)
-- Longitudinal spatial–temporal analysis of urban form change
-- Integration of clustering, time-series modeling, and spatial statistics
-
-**Methods:**
-- Spatial–temporal clustering (e.g., ST-DBSCAN, hierarchical clustering)
-- Time-series analysis and trend detection
-- Kernel density estimation and spatial regression
-- Large-scale parcel, street network, and building data processing
-
-This research contributes a reproducible framework for evaluating long-run urban sustainability at fine spatial and temporal resolutions.
+</div>
 
 ---
 
-## Research Themes
+### 🔍 Research Problem
 
-### Urban Morphology & Sustainability
-Quantitative measurement and longitudinal evaluation of built-environment form.
+Urban sustainability is often evaluated using **cross-sectional indicators**, providing limited insight into how urban form evolves over time. This research addresses a core gap in urban analytics: the lack of **longitudinal, spatially explicit frameworks** for measuring sustainable urban morphology.
 
-### Spatial–Temporal Modeling
-Methods for detecting trends, regime changes, and structural patterns in time-evolving spatial data.
-
-### Street Networks & Urban Systems
-Analysis of network structure and its relationship to urban outcomes such as crime, accessibility, and land use.
-
-### GeoAI & Data Automation
-Machine learning and automated pipelines for large-scale urban and administrative datasets.
+The central question is not only whether cities become more sustainable, but **where**, **how**, and **under what spatial regimes** these changes occur.
 
 ---
 
-## Tools & Methods
+### 🧠 Research Contributions
 
-**Programming:** Python, R  
-**GIS:** ArcGIS Pro, PostGIS, GeoPandas  
-**Analytics:** Spatial statistics, machine learning, time-series modeling  
-**Infrastructure:** HPC environments, reproducible research pipelines
+This dissertation develops a **spatio-temporal analytical framework** that:
 
+- Quantifies urban form using reproducible morphology indicators  
+- Tracks long-run structural change in the built environment  
+- Detects spatial heterogeneity and regime shifts in urban development  
+- Integrates time-series analysis, clustering, and spatial statistics  
+
+The framework enables fine-grained evaluation of **whether**, **where**, and **how** urban morphology trends toward (or away from) sustainability.
+
+<div class="callout">
+
+**Methodological Contribution:**  
+Rather than treating urban form as static, this research models the built environment as a dynamic system with measurable temporal trajectories.
+
+</div>
+
+---
+
+### 🧪 Data & Methods
+
+**Data Sources:**
+- Tax parcels and building records  
+- Street networks and intersection topology  
+- Administrative and GIS boundary datasets  
+
+**Analytical Methods:**
+- Urban morphology metrics (density, compactness, street hierarchy)  
+- Spatial–temporal clustering (ST-DBSCAN, hierarchical clustering)  
+- Kernel density estimation (KDE)  
+- Time-series trend analysis and structural break detection  
+- Spatial regression and exploratory spatial data analysis  
+
+---
+
+### ⚙️ Technical Stack
+
+- **Programming:** Python, R  
+- **GIS:** ArcGIS Pro, GeoPandas, PostGIS  
+- **Analytics:** Spatial statistics, time-series modeling, clustering  
+- **Infrastructure:** High-performance computing (HPC), automated pipelines  
+
+---
+
+### 📊 Key Outcomes
+
+- Longitudinal evidence of heterogeneous urban form trajectories  
+- Identification of spatial regimes with distinct sustainability dynamics  
+- A scalable methodology applicable to other U.S. metropolitan regions  
+
+---
+
+### 🏛️ Policy & Planning Relevance
+
+This research supports **data-driven urban governance** by providing:
+
+- Objective diagnostics for long-term land-use outcomes  
+- Evidence-based inputs for planning and infrastructure decision-making  
+- A foundation for automating sustainability monitoring in local governments  
+
+<div class="callout">
+
+**Governance Insight:**  
+The framework enables continuous, automated monitoring of urban sustainability indicators, supporting proactive planning rather than reactive assessment.
+
+</div>
+
+---
+
+### 📎 Related Outputs
+
+- Doctoral dissertation manuscript (forthcoming)  
+- Journal articles (in preparation / under review)  
+- Reproducible analysis pipelines (select components to be released)
